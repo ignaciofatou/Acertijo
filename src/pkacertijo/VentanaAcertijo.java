@@ -177,13 +177,13 @@ public class VentanaAcertijo extends javax.swing.JFrame {
         if (numero > numAleatorio){
             JOptionPane.showMessageDialog(
                         this,
-                        "El Numero Introducido es Mayor",
+                        "Introduzca un numero Menor",
                         "Mayor",
                         JOptionPane.INFORMATION_MESSAGE);
         }else if (numero < numAleatorio){
             JOptionPane.showMessageDialog(
                         this,
-                        "El Numero Introducido es Menor",
+                        "Introduzca un numero Mayor",
                         "Menor",
                         JOptionPane.INFORMATION_MESSAGE);
         }else{
